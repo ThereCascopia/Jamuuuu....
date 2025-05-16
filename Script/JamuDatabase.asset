@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: JamuDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::JamuDatabase
+  bahans:
+  - itemName: Kunyit
+    itemSprite: {fileID: 21300000, guid: 8cbfbdb23ed0d6245a28861d5643ab11, type: 3}
+    itemValue: 0
+    description: 
+  - itemName: Asam Jawa
+    itemSprite: {fileID: 21300000, guid: 2c0239247c30a9d469a05cd74eda814a, type: 3}
+    itemValue: 0
+    description: 
+  - itemName: Gula Merah
+    itemSprite: {fileID: 21300000, guid: 5658ee7215d51fd4b8a0e6169a9f2ded, type: 3}
+    itemValue: 0
+    description: 
+  - itemName: Garam
+    itemSprite: {fileID: 21300000, guid: 498807a9973b9414e89c9994042eb58e, type: 3}
+    itemValue: 0
+    description: 
+  - itemName: Air Putih
+    itemSprite: {fileID: 7259151418346702640, guid: bf12b3a075166d34e9810d11845acfef, type: 3}
+    itemValue: 0
+    description: 
+  - itemName: Jahe
+    itemSprite: {fileID: 21300000, guid: 2477b3660b8a7cd4d9f7ed3573dad84c, type: 3}
+    itemValue: 0
+    description: 
+  - itemName: Beras
+    itemSprite: {fileID: 21300000, guid: fa56a765aa0f4d146b60abdcb6adfd41, type: 3}
+    itemValue: 0
+    description: 
+  - itemName: Kencur
+    itemSprite: {fileID: 21300000, guid: 8c9e88b06f1bc3d468b1b25a7383560d, type: 3}
+    itemValue: 0
+    description: 
+  - itemName: Sereh
+    itemSprite: {fileID: 21300000, guid: 96019640975adb949b428bfc12e9fcea, type: 3}
+    itemValue: 0
+    description: 
+  - itemName: Daun Pandan
+    itemSprite: {fileID: 21300000, guid: aa7c7eeac7cc3024a94087951502988c, type: 3}
+    itemValue: 0
+    description: 
+  benihs:
+  - itemName: Benih Kunyit
+    itemSprite: {fileID: 21300000, guid: 9960aa91f1481b640b37848e5781d8ff, type: 3}
+    itemValue: 0
+    description: 
+    growthStages:
+    - {fileID: 402386967653821332, guid: 9f5f7e5a4cc064b4d876b65b43070662, type: 3}
+    - {fileID: 5375317661673419745, guid: 9f5f7e5a4cc064b4d876b65b43070662, type: 3}
+    - {fileID: 21300000, guid: 45c808056b47dcb4285e22a06143dee4, type: 3}
+    growthTime: 1
+    producesBahan:
+      itemName: Kunyit
+      itemSprite: {fileID: 21300000, guid: 45c808056b47dcb4285e22a06143dee4, type: 3}
+      itemValue: 0
+      description: 
+  - itemName: Benih Asam Jawa
+    itemSprite: {fileID: 21300000, guid: fd63c62af31031c42a846cd586f91dbf, type: 3}
+    itemValue: 0
+    description: 
+    growthStages:
+    - {fileID: 402386967653821332, guid: 9f5f7e5a4cc064b4d876b65b43070662, type: 3}
+    - {fileID: 5375317661673419745, guid: 9f5f7e5a4cc064b4d876b65b43070662, type: 3}
+    - {fileID: 21300000, guid: 254ee5184d05fa14aa72840ac39584d0, type: 3}
+    growthTime: 1
+    producesBahan:
+      itemName: Asam Jawa
+      itemSprite: {fileID: 21300000, guid: 254ee5184d05fa14aa72840ac39584d0, type: 3}
+      itemValue: 0
+      description: 
+  - itemName: Benih Jahe
+    itemSprite: {fileID: 21300000, guid: bcfd6957d25ad3e42829c307d5ff6e8d, type: 3}
+    itemValue: 0
+    description: 
+    growthStages:
+    - {fileID: 402386967653821332, guid: 9f5f7e5a4cc064b4d876b65b43070662, type: 3}
+    - {fileID: 5375317661673419745, guid: 9f5f7e5a4cc064b4d876b65b43070662, type: 3}
+    - {fileID: 21300000, guid: 8d17cfcc3e41ccf4aa11b56cdcc3a066, type: 3}
+    growthTime: 1
+    producesBahan:
+      itemName: Jahe
+      itemSprite: {fileID: 21300000, guid: 8d17cfcc3e41ccf4aa11b56cdcc3a066, type: 3}
+      itemValue: 0
+      description: 
+  - itemName: Benih Beras
+    itemSprite: {fileID: 21300000, guid: 6a3370a2a98cb0645aa59946d661af7b, type: 3}
+    itemValue: 0
+    description: 
+    growthStages:
+    - {fileID: 402386967653821332, guid: 9f5f7e5a4cc064b4d876b65b43070662, type: 3}
+    - {fileID: 5375317661673419745, guid: 9f5f7e5a4cc064b4d876b65b43070662, type: 3}
+    - {fileID: 21300000, guid: cd833ba66fcf9f9408830469939328b4, type: 3}
+    growthTime: 1
+    producesBahan:
+      itemName: Beras
+      itemSprite: {fileID: 21300000, guid: cd833ba66fcf9f9408830469939328b4, type: 3}
+      itemValue: 0
+      description: 
+  - itemName: Benih Kencur
+    itemSprite: {fileID: 21300000, guid: 42c8a4183f0c47b40b7ac158502b63c2, type: 3}
+    itemValue: 0
+    description: 
+    growthStages:
+    - {fileID: 402386967653821332, guid: 9f5f7e5a4cc064b4d876b65b43070662, type: 3}
+    - {fileID: 5375317661673419745, guid: 9f5f7e5a4cc064b4d876b65b43070662, type: 3}
+    - {fileID: 21300000, guid: d8285b2e150a0b5408ca9458658032c5, type: 3}
+    growthTime: 1
+    producesBahan:
+      itemName: Kencur
+      itemSprite: {fileID: 21300000, guid: d8285b2e150a0b5408ca9458658032c5, type: 3}
+      itemValue: 0
+      description: 
+  - itemName: Benih Sereh
+    itemSprite: {fileID: 21300000, guid: 47159c15c2d21434d9a4eebf9962a957, type: 3}
+    itemValue: 0
+    description: 
+    growthStages:
+    - {fileID: 402386967653821332, guid: 9f5f7e5a4cc064b4d876b65b43070662, type: 3}
+    - {fileID: 5375317661673419745, guid: 9f5f7e5a4cc064b4d876b65b43070662, type: 3}
+    - {fileID: 21300000, guid: e50fc70fb9c65174ab84aa4ab83575af, type: 3}
+    growthTime: 1
+    producesBahan:
+      itemName: Sereh
+      itemSprite: {fileID: 21300000, guid: e50fc70fb9c65174ab84aa4ab83575af, type: 3}
+      itemValue: 0
+      description: 
+  - itemName: Benih Daun Pandan
+    itemSprite: {fileID: 21300000, guid: 94a28a1d044e8ac4898304a48ef3a8fa, type: 3}
+    itemValue: 0
+    description: 
+    growthStages:
+    - {fileID: 402386967653821332, guid: 9f5f7e5a4cc064b4d876b65b43070662, type: 3}
+    - {fileID: 5375317661673419745, guid: 9f5f7e5a4cc064b4d876b65b43070662, type: 3}
+    - {fileID: 21300000, guid: 28b9ecd4e0228b84d8b20a8d392b021a, type: 3}
+    growthTime: 1
+    producesBahan:
+      itemName: Daun Pandan
+      itemSprite: {fileID: 21300000, guid: 28b9ecd4e0228b84d8b20a8d392b021a, type: 3}
+      itemValue: 0
+      description: 
+  resepJamus:
+  - itemName: Kunyit Asam
+    itemSprite: {fileID: 4067075352301800114, guid: 72f29d8e52ab51a4cab28d5282d42b91, type: 3}
+    itemValue: 0
+    description: "Manfaat : \n- Mengurangi gejala asam lambung\n- Melancarkan peredaran
+      darah\n- Mengobati sariawan dan panas dalam\n- Melancarkan haid pada wanita\n-
+      Mengurangi rasa pegal"
+    bahanResep:
+    - Kunyit
+    - Asam Jawa
+    - Gula Merah
+    - Garam
+    - Air Putih
+  - itemName: Beras Kencur
+    itemSprite: {fileID: 4769916494890521778, guid: 72f29d8e52ab51a4cab28d5282d42b91, type: 3}
+    itemValue: 0
+    description: 
+    bahanResep:
+    - Beras
+    - Kencur
+    - Kunyit
+    - Jahe
+    - Air Putih
+  - itemName: 
+    itemSprite: {fileID: 8101925395500523073, guid: 72f29d8e52ab51a4cab28d5282d42b91, type: 3}
+    itemValue: 0
+    description: 
+    bahanResep:
+    - Jahe
+    - Sereh
+    - Daun Pandan
+    - Gula Merah
+    - Air Putih
